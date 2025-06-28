@@ -5,13 +5,13 @@ import L from "leaflet";
 
 const OWNER_COORDS = [28.7041, 77.1025]; 
 const ownerIcon = L.icon({
-  iconUrl: '/Subject.png',
+  iconUrl: '/manyamarker.png',
   iconSize: [36, 52],
   iconAnchor: [18, 36],
   popupAnchor: [0, -36],
 });
 const visitorIcon = L.icon({
-  iconUrl: '/marker.webp',
+  iconUrl: '/visitormarker.webp',
   iconSize: [52, 52],
   iconAnchor: [18, 36],
   popupAnchor: [0, -36],
