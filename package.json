@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+   "build:css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --minify",
+    "build": "npm run build:css && vite build"  
+},
+  
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
     "leaflet": "^1.9.4",
