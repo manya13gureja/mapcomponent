@@ -1,0 +1,18 @@
+@import "tailwindcss" ;
+html,
+body,
+#root {
+  height: 100%;
+
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+  filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
