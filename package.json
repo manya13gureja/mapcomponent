@@ -3,10 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-   "build:css": "npx tailwindcss -i ./src/input.css -o ./public/output.css --minify",
-    "build": "npm run build:css && vite build"  
+"scripts": {
+  "dev": "vite",
+  "build:css": "tailwindcss -i ./src/index.css -o ./src/output.css --minify",
+  "build": "npm run build:css && vite build",
+  "preview": "vite preview"
 },
   
   "dependencies": {
